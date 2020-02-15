@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return(
-        <div>
+        <div style={{height: '2000px'}}>
             <h1>Hello, this is the contact page</h1>
         </div>
     );

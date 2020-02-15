@@ -10,11 +10,11 @@ import Particles from 'react-particles-js';
 class App extends React.Component {
   render(){
     return(
-      <div>
+      <div style={{height: '2000px'}}>
         <Layout>
-            <Route exact path='/about' component ={About}/>
-            <Route exact path='/contact' component ={Contact}/>
-            <Route exact path='/portofolio' component ={Portofolio}/>
+            <Route exact path='/Blog/about' component ={About}/>
+            <Route exact path='/Blog/contact' component ={Contact}/>
+            <Route exact path='/Blog/portofolio' component ={Portofolio}/>
         </Layout>
       </div>
     );

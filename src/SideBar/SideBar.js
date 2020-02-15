@@ -29,30 +29,28 @@ class SideBar extends React.Component {
 
                 <div id='menu' className='nav' style={{width: menuWidth}}>
                     <div id='xDiv'>
-                        <a href='#' onClick={this.closeSlideMenu}>
-                            <i style={{fontSize: '40px'}} className='fa fa-times'></i>
-                        </a>
+                            <i onClick={this.closeSlideMenu} style={{fontSize: '40px'}} className='fa fa-times'></i>
                     </div>
         
                     <ul>
                         <li>
-                            <Link to='/' className={this.state.addSlideIn}>Home</Link>
+                            <Link to='/Blog' className={this.state.addSlideIn}>Home</Link>
                         </li>
 
                         <li>
-                            <Link to='/about' className={this.state.addSlideIn}>About</Link>
+                            <Link to='/Blog/about' className={this.state.addSlideIn}>About</Link>
                         </li>
 
                         <li>
-                            <Link to='/contact' className={this.state.addSlideIn}>Contact</Link>
+                            <Link to='/Blog/contact' className={this.state.addSlideIn}>Contact</Link>
                         </li>
 
                         <li>
-                            <Link to='/portofolio' className={this.state.addSlideIn}>Portofolio</Link>
+                            <Link to='/Blog/portofolio' className={this.state.addSlideIn}>Portofolio</Link>
                         </li>
 
                         <li>
-                            <Link to='/portofolio' className={this.state.addSlideIn}>Gallery</Link>
+                            <Link to='/Blog/portofolio' className={this.state.addSlideIn}>Gallery</Link>
                         </li>
                     </ul>
                 </div>
